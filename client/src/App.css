@@ -1,0 +1,93 @@
+.form-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.form-container h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.form-container label {
+  display: block;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-container input:focus {
+  border-color: #4CAF50;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.form-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.status-message {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.form-container input[type="number"]::-webkit-inner-spin-button,
+.form-container input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-container input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    padding: 20px;
+    margin: 30px auto;
+  }
+  .form-container h2 {
+    font-size: 20px;
+  }
+  .form-container input, .form-container button {
+    font-size: 14px;
+  }
+}
