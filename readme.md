@@ -33,7 +33,9 @@ Error Handling: The system handles failures gracefully, ensuring no duplicate op
 
 ## 3. MongoDB Setup
 
-This project uses online Mongo Atlas service for which the connection_string is provided in the env file.
+- This project uses online Mongo Atlas service for which the connection_string is provided in the env file.
+- For now user creation can be done only by the Mongo dashboard as it contains crucial information like account balance.
+- Initially, two users have been created with userID : 123 and 456.
 
 ## How the System Works
 
